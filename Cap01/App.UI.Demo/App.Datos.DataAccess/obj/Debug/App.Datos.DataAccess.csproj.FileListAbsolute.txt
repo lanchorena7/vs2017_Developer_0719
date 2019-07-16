@@ -1,0 +1,6 @@
+C:\VS2017Developer\Cap01\App.UI.Demo\App.Datos.DataAccess\bin\Debug\App.Datos.DataAccess.dll
+C:\VS2017Developer\Cap01\App.UI.Demo\App.Datos.DataAccess\bin\Debug\App.Datos.DataAccess.pdb
+C:\VS2017Developer\Cap01\App.UI.Demo\App.Datos.DataAccess\obj\Debug\App.Datos.DataAccess.csprojAssemblyReference.cache
+C:\VS2017Developer\Cap01\App.UI.Demo\App.Datos.DataAccess\obj\Debug\App.Datos.DataAccess.csproj.CoreCompileInputs.cache
+C:\VS2017Developer\Cap01\App.UI.Demo\App.Datos.DataAccess\obj\Debug\App.Datos.DataAccess.dll
+C:\VS2017Developer\Cap01\App.UI.Demo\App.Datos.DataAccess\obj\Debug\App.Datos.DataAccess.pdb
