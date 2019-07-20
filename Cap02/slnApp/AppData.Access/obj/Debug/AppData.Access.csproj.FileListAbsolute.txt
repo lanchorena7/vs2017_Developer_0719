@@ -1,0 +1,9 @@
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\bin\Debug\AppData.Access.dll
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\bin\Debug\AppData.Access.pdb
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.csprojAssemblyReference.cache
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.csproj.CoreCompileInputs.cache
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.dll
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.pdb
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\bin\Debug\AppEntities.Base.dll
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\bin\Debug\AppEntities.Base.pdb
+C:\VS2017Developer\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.csproj.CopyComplete

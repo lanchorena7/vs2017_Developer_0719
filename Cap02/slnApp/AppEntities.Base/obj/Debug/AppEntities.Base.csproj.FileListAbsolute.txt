@@ -1,0 +1,6 @@
+C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\bin\Debug\AppEntities.Base.dll
+C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\bin\Debug\AppEntities.Base.pdb
+C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.csprojAssemblyReference.cache
+C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.csproj.CoreCompileInputs.cache
+C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.dll
+C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.pdb
