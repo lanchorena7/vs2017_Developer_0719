@@ -1,0 +1,13 @@
+CREATE PROCEDURE usp_InsertArtist
+(
+@Name NVARCHAR (120)
+)
+AS
+BEGIN
+
+INSERT INTO Artist(Name)
+VALUES (@Name)
+
+SELECT SCOPE_IDENTITY()
+
+END
