@@ -45,8 +45,7 @@ namespace AppData.Access
 
             return result;
         }
-
-
+        
         public List<Artist> GetArtist()
         {
             var result = new List<Artist>();
@@ -79,17 +78,17 @@ namespace AppData.Access
         public List<Artist> GetArtist(string filtroPorNombre)
         {
             var result = new List<Artist>();
-            var sql = "usp_GetArtist";
+            var sql = "usp_GetArtist"; // Aplicamos un SP
 
             using (IDbConnection cnx = new SqlConnection(ConnectionString))
             {
                 cnx.Open(); //Abrimos conexion de la BD
                 var cmd = cnx.CreateCommand();  //Creamos la conexion
                 cmd.CommandText = sql;  //Pasamos la cadena sql
-                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandType = CommandType.StoredProcedure; // Creamos el comando
                 //Configurando el parametro
                 cmd.Parameters.Add(
-                    new SqlParameter("@Nombre", filtroPorNombre)
+                    new SqlParameter("@Nombre", filtroPorNombre) // Pasamos el parametro
                     );
 
                 var indice = 0;
@@ -108,6 +107,73 @@ namespace AppData.Access
                     result.Add(artist);
                 }
             }
+            return result;
+        }
+
+        public int InsertArtist(Artist entity)
+        {
+            var result = 0; //Creamos una variable result
+
+            using (IDbConnection cnx = new SqlConnection(ConnectionString))
+            {
+                cnx.Open();
+                var cmd = cnx.CreateCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_InsertArtist";
+                //parametros
+                cmd.Parameters.Add(
+                    new SqlParameter("@Name", entity.Name));
+                result = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+
+            return result;
+        }
+
+        public int InsertArtistParamOut(Artist entity)
+        {
+            var result = 0; //Creamos una variable result
+
+            using (IDbConnection cnx = new SqlConnection(ConnectionString))
+            {
+                cnx.Open();
+                var cmd = cnx.CreateCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_InsertArtist";
+                //parametros
+                cmd.Parameters.Add(
+                    new SqlParameter("@Name", entity.Name));
+                //Declarando un parametro de salida
+                var paramID = new SqlParameter();
+                paramID.ParameterName = "@ID";
+                paramID.Direction = ParameterDirection.Output;
+                paramID.DbType = DbType.Int32;
+
+                cmd.Parameters.Add(paramID);
+                //--Fin de confiurarar el parametro de salida
+
+                cmd.ExecuteNonQuery();
+                result = Convert.ToInt32(paramID.Value);
+            }
+
+            return result;
+        }
+
+        public int UpdateArtist(Artist entity)
+        {
+            var result = 0; //Creamos una variable result
+
+            using (IDbConnection cnx = new SqlConnection(ConnectionString))
+            {
+                cnx.Open();
+                var cmd = cnx.CreateCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_UpdateArtist";
+                //parametros
+                cmd.Parameters.Add(
+                    new SqlParameter("@ID", entity.Name));
+                result = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+
             return result;
         }
     }

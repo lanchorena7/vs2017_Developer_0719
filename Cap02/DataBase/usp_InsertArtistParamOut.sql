@@ -1,0 +1,14 @@
+CREATE PROCEDURE usp_InsertArtistParamOut
+(
+	@Name NVARCHAR (120),
+	@ID INT OUTPUT
+)
+AS
+BEGIN
+
+INSERT INTO Artist(Name)
+VALUES (@Name)
+
+set @ID= SCOPE_IDENTITY()
+
+END
