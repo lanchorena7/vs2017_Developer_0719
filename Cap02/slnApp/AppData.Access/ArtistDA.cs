@@ -158,9 +158,9 @@ namespace AppData.Access
             return result;
         }
 
-        public int UpdateArtist(Artist entity)
+        public bool UpdateArtist(Artist entity)
         {
-            var result = 0; //Creamos una variable result
+            var result = false; //Creamos una variable result
 
             using (IDbConnection cnx = new SqlConnection(ConnectionString))
             {
@@ -171,7 +171,7 @@ namespace AppData.Access
                 //parametros
                 cmd.Parameters.Add(
                     new SqlParameter("@ID", entity.Name));
-                result = Convert.ToInt32(cmd.ExecuteScalar());
+                result = cmd.ExecuteNonQuery() > 0;
             }
 
             return result;
