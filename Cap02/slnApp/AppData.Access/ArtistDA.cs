@@ -199,5 +199,40 @@ namespace AppData.Access
 
             return result;
         }
+
+        public Artist GetArtistById(int id)
+        {
+            var result = new Artist();
+            var sql = "usp_GetArtistById";
+
+            using (IDbConnection cnx = new SqlConnection(ConnectionString))
+            {
+                cnx.Open(); //Abrimos conexion de la BD
+                var cmd = cnx.CreateCommand();  //Creamos la conexion
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = sql;  //Pasamos la cadena sql
+                //Configurando el parametro
+                cmd.Parameters.Add(
+                    new SqlParameter("@ID", id)
+                    );
+                //Fin del parametro
+                var indice = 0;
+                var reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    var artist = new Artist();
+                    indice = reader.GetOrdinal("ArtistId");
+                    artist.ArtistId = reader.GetInt32(indice);
+                    //artist.ArtistId = Convert.ToInt32(reader["ArtistId"]);
+
+                    indice = reader.GetOrdinal("Name");
+                    artist.Name = reader.GetString(indice);
+
+                    result = artist;
+                }
+            }
+            return result;
+        }
     }
 }

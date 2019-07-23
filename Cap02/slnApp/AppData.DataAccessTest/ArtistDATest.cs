@@ -58,5 +58,24 @@ namespace AppData.DataAccessTest
 
             Assert.IsTrue(codigoGenerado > 0);
         }
+
+        [TestMethod]
+        public void Update()
+        {
+            var artist = new Artist();
+            artist.Name = "Artista prueba nuevo";
+
+            var da = new ArtistDA();
+            var codigoGenerado = da.InsertArtist(artist);
+
+            //Actualizando el Artista
+            artist.Name = "Artista prueba nueva actualizado";
+            artist.ArtistId = codigoGenerado;
+            var updated = da.UpdateArtist(artist);
+            Assert.IsTrue(updated);
+
+            var artistaUpdate = da.GetArtistById(codigoGenerado);
+            Assert.IsTrue(artistaUpdate.Name == "Artista pruebo nuevo actualizado");
+        }
     }
 }
