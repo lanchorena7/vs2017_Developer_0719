@@ -8,7 +8,7 @@ namespace AppEntities.Base
 {
     public class Artist
     {
-        //Creaión de las propiedades
+        //Creación de las propiedades
         public int ArtistId { get; set; }
         public string Name { get; set; }
     }
