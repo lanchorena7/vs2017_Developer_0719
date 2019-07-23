@@ -44,7 +44,7 @@ namespace AppData.Access
             }
 
             return result;
-        }
+        }  //TRAE REGISTROS
         
         public List<Artist> GetArtist()
         {
@@ -108,7 +108,7 @@ namespace AppData.Access
                 }
             }
             return result;
-        }
+        } 
 
         public int InsertArtist(Artist entity)
         {
@@ -127,7 +127,7 @@ namespace AppData.Access
             }
 
             return result;
-        }
+        } //
 
         public int InsertArtistParamOut(Artist entity)
         {
@@ -171,6 +171,29 @@ namespace AppData.Access
                 //parametros
                 cmd.Parameters.Add(
                     new SqlParameter("@ID", entity.Name));
+                //result = cmd.ExecuteNonQuery() > 0 ? true : false
+                //Es igual a la evaluación de la linea de abajo
+                result = cmd.ExecuteNonQuery() > 0;
+            }
+
+            return result;
+        }
+
+        public bool DeleteArtist(int id)
+        {
+            var result = false; //Creamos una variable result
+
+            using (IDbConnection cnx = new SqlConnection(ConnectionString))
+            {
+                cnx.Open();
+                var cmd = cnx.CreateCommand();
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_DeleteArtist";
+                //parametros
+                cmd.Parameters.Add(
+                    new SqlParameter("@ID", id));
+                //result = cmd.ExecuteNonQuery() > 0 ? true : false
+                //Es igual a la evaluación de la linea de abajo
                 result = cmd.ExecuteNonQuery() > 0;
             }
 
