@@ -78,14 +78,15 @@ namespace AppData.Access
 
                     // Confirmando con la transacción con el commit
                     transaction.Commit();
+
+                    result = id;
                 }
                 catch (Exception ex)
                 {
 
                     transaction.Rollback(); //Deshaciendo la transacción
                 }
-            }
-                       
+            }       
                 return result;
         }
     }

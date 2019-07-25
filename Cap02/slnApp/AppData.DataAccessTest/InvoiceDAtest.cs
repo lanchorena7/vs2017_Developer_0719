@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using AppData.Access;
 using AppEntities.Base;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -40,10 +41,11 @@ namespace AppData.DataAccessTest
                     Quantity = 7
                 }
             );
-        }
 
-    internal class List<T> : System.Collections.Generic.List<InvoiceLine>
-    {
+            var da = new InvoiceDA();
+            var id = da.InsertInvoice(invoice);
+
+            Assert.IsTrue(id > 0);
     }
 }
 }
