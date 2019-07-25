@@ -15,3 +15,7 @@ C:\VS2017Developer\github\Cap02\slnApp\AppData.Access\bin\Debug\AppEntities.Base
 C:\VS2017Developer\github\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.csproj.CopyComplete
 C:\VS2017Developer\github\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.dll
 C:\VS2017Developer\github\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.csprojAssemblyReference.cache
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.csproj.CoreCompileInputs.cache
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppData.Access\obj\Debug\AppData.Access.pdb
