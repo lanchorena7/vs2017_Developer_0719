@@ -25,6 +25,8 @@ namespace AppData.Access
                     commandCab.CommandText = "usp_InsertInvoce";
                     commandCab.CommandType = CommandType.StoredProcedure;
 
+                    commandCab.Transaction = transaction;
+
                     commandCab.Parameters.Add(
                         new SqlParameter("@CustomerId", invoice.CustomerId)
                         );
@@ -58,6 +60,8 @@ namespace AppData.Access
                         var commandDet = cnx.CreateCommand();
                         commandDet.CommandText = "usp_InsertInvoceLine";
                         commandDet.CommandType = CommandType.StoredProcedure;
+
+                        commandCab.Transaction = transaction;
 
                         commandCab.Parameters.Add(
                             new SqlParameter("@InvoiceId", id)
