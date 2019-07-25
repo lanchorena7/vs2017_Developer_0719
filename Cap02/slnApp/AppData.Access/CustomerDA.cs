@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppEntities.Base;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -195,39 +196,46 @@ namespace AppData.Access
             return result;
         }
 
-        public Artist GetArtistById(int id)
+        public Customer usp_GetCustomerxName(int id)
         {
-            var result = new Artist();
-            var sql = "usp_GetArtistById";
+            var resultado = new Customer();
+            var name = new List<Customer>();
 
             using (IDbConnection cnx = new SqlConnection(ConnectionString))
             {
                 cnx.Open(); //Abrimos conexion de la BD
                 var cmd = cnx.CreateCommand();  //Creamos la conexion
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = sql;  //Pasamos la cadena sql
-                //Configurando el parametro
-                cmd.Parameters.Add(
-                    new SqlParameter("@ID", id)
-                    );
-                //Fin del parametro
-                var indice = 0;
+                cmd.CommandText = "usp_GetCustomerxName";  //Pasamos la cadena sql
+                cmd.CommandType = CommandType.StoredProcedure; //Configurando el parametro
+                cmd.Parameters.Add(new SqlParameter("@FullName", name));
+
                 var reader = cmd.ExecuteReader();
 
                 while (reader.Read())
                 {
-                    var artist = new Artist();
-                    indice = reader.GetOrdinal("ArtistId");
-                    artist.ArtistId = reader.GetInt32(indice);
-                    //artist.ArtistId = Convert.ToInt32(reader["ArtistId"]);
+                    var customer = new Customer();
 
-                    indice = reader.GetOrdinal("Name");
-                    artist.Name = reader.GetString(indice);
+                    customer.CustomerId = reader.GetInt32Value("CustomerId"));
+                    customer.FirstName = reader.GetStringValue("FirstName"));
+                    customer.LastName = reader.GetStringValue("LastName"));
 
-                    result = artist;
+                    customer.Company = reader.GetStringValue("Company");
+
+                    customer.Address = reader.GetStringValue("Address");
+                    customer.City = reader.GetStringValue("City");
+                    customer.State = reader.GetStringValue("State");
+                    customer.Country = reader.GetStringValue("Country");
+                    customer.PostalCode = reader.GetStringValue("PostalCode");
+                    customer.Phone = reader.GetStringValue("Phone");
+                    customer.Fax = reader.GetStringValue("Fax");
+                    customer.Email = reader.GetStringValue("Email");
+                    customer.SupportRepId = reader.GetInt32Null("SupportRepId");
+
+                    resultado.Add(customer);
                 }
             }
-            return result;
+
+            return resultado;
         }
     }
 }
