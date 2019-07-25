@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="ArtistDATest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomerDATest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

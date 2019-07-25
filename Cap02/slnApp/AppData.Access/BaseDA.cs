@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,5 +17,13 @@ namespace AppData.Access
                 return cnxString;
             }
         }
+
+        public string GetStringValue(IDataReader reader, string campo)
+        {
+            return reader.IsDBNull(reader.GetOrdinal(campo))
+                ? null : reader.GetString(reader.GetOrdinal("campo"));
+        }
+
+
     }
 }

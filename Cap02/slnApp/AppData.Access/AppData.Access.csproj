@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdoNetExtensions.cs" />
     <Compile Include="ArtistDA.cs" />
     <Compile Include="BaseDA.cs" />
     <Compile Include="CustomerDA.cs" />

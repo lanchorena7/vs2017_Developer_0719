@@ -8,7 +8,7 @@ namespace AppEntities.Base
 {
     public class Customer
     {
-        public int Customerld { get; set; }
+        public int CustomerId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
    
@@ -23,5 +23,7 @@ namespace AppEntities.Base
         public string Phone { get; set; }
         public string Fax { get; set; }
         public string Email { get; set; }
+
+        public int? SupportRepId { get; set; }
     }
 }
