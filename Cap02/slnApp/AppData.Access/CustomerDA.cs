@@ -196,10 +196,9 @@ namespace AppData.Access
             return result;
         }
 
-        public Customer usp_GetCustomerxName(int id)
+        public List<Customer> usp_GetCustomerxName(string name)
         {
-            var resultado = new Customer();
-            var name = new List<Customer>();
+            var resultado = new List<Customer>();
 
             using (IDbConnection cnx = new SqlConnection(ConnectionString))
             {

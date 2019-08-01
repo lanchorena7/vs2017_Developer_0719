@@ -1,0 +1,16 @@
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\obj\Debug\ConsoleDePruebas.csproj.CoreCompileInputs.cache
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\ConsoleDePruebas.exe.config
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\ConsoleDePruebas.exe
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\ConsoleDePruebas.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\AppEntities.Base.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\Dapper.Contrib.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\Dapper.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\DapperDAL.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\AppEntities.Base.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\DapperDAL.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\Dapper.xml
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\bin\Debug\Dapper.Contrib.xml
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\obj\Debug\ConsoleDePruebas.csprojAssemblyReference.cache
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\obj\Debug\ConsoleDePruebas.csproj.CopyComplete
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\obj\Debug\ConsoleDePruebas.exe
+F:\VS2017\Developer_0719\git\Cap02\slnApp\ConsoleDePruebas\obj\Debug\ConsoleDePruebas.pdb

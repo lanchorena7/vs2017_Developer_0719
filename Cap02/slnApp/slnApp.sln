@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppData.Access", "AppData.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppData.DataAccessTest", "AppData.DataAccessTest\AppData.DataAccessTest.csproj", "{6BA63C15-EA8F-40E8-B6BE-9AB583B03EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDAL", "DapperDAL\DapperDAL.csproj", "{9D757094-0A0F-4D50-BBCC-CC726251049C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDePruebas", "ConsoleDePruebas\ConsoleDePruebas.csproj", "{0A05C2C0-F51E-4F2D-969F-E8BD7290A841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{6BA63C15-EA8F-40E8-B6BE-9AB583B03EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA63C15-EA8F-40E8-B6BE-9AB583B03EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA63C15-EA8F-40E8-B6BE-9AB583B03EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D757094-0A0F-4D50-BBCC-CC726251049C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D757094-0A0F-4D50-BBCC-CC726251049C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D757094-0A0F-4D50-BBCC-CC726251049C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D757094-0A0F-4D50-BBCC-CC726251049C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A05C2C0-F51E-4F2D-969F-E8BD7290A841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A05C2C0-F51E-4F2D-969F-E8BD7290A841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A05C2C0-F51E-4F2D-969F-E8BD7290A841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A05C2C0-F51E-4F2D-969F-E8BD7290A841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
