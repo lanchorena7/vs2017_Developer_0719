@@ -1,21 +1,20 @@
 ﻿using System;
-using AppData.Access;
-using AppEntities.Base;
+using App.Data.DataAccess;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AppData.DataAccessTest
+namespace App.Data.DataAccessTest
 {
     [TestClass]
-    public class GetCustomerxName
+    public class CustomerDATest
     {
         [TestMethod]
         public void GetCustomerxName()
         {
-            var da = new Customer();
-            var lista = da.GetCustomerxName("");
+            var da = new CustomerDA();
+            var lista = da.getCustomerxName("");
 
             Assert.IsTrue(lista.Count > 0);
         }
-
     }
 }
+

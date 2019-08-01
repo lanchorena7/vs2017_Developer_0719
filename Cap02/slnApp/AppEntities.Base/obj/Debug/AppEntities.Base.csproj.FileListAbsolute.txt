@@ -4,3 +4,11 @@ C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.cspr
 C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.csproj.CoreCompileInputs.cache
 C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.dll
 C:\VS2017Developer\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.csproj.CoreCompileInputs.cache
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\bin\Debug\AppEntities.Base.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\bin\Debug\AppEntities.Base.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\bin\Debug\Dapper.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\bin\Debug\Dapper.xml
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.csproj.CopyComplete
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.dll
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppEntities.Base\obj\Debug\AppEntities.Base.pdb

@@ -40,3 +40,5 @@ C:\VS2017Developer\github\Cap02\slnApp\AppData.DataAccessTest\obj\Debug\AppData.
 C:\VS2017Developer\github\Cap02\slnApp\AppData.DataAccessTest\obj\Debug\AppData.DataAccessTest.csproj.CopyComplete
 C:\VS2017Developer\github\Cap02\slnApp\AppData.DataAccessTest\obj\Debug\AppData.DataAccessTest.dll
 C:\VS2017Developer\github\Cap02\slnApp\AppData.DataAccessTest\obj\Debug\AppData.DataAccessTest.pdb
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppData.DataAccessTest\obj\Debug\AppData.DataAccessTest.csproj.CoreCompileInputs.cache
+F:\VS2017\Developer_0719\git\Cap02\slnApp\AppData.DataAccessTest\obj\Debug\AppData.DataAccessTest.csprojAssemblyReference.cache
