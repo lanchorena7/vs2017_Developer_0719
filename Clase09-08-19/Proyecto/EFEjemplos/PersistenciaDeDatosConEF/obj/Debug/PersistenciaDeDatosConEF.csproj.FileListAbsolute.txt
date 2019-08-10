@@ -1,0 +1,12 @@
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\PersistenciaDeDatosConEF.dll.config
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\PersistenciaDeDatosConEF.dll
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\PersistenciaDeDatosConEF.pdb
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\EntityFramework.dll
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\EntityFramework.xml
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\obj\Debug\PersistenciaDeDatosConEF.csprojAssemblyReference.cache
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\obj\Debug\PersistenciaDeDatosConEF.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\obj\Debug\PersistenciaDeDatosConEF.csproj.CopyComplete
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\obj\Debug\PersistenciaDeDatosConEF.dll
+C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatosConEF\obj\Debug\PersistenciaDeDatosConEF.pdb
