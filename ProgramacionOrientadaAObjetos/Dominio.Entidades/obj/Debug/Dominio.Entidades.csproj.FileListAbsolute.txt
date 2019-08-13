@@ -4,3 +4,9 @@ C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Dominio.Entidades
 C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.csproj.CoreCompileInputs.cache
 C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.dll
 C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.pdb
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Dominio.Entidades\bin\Debug\Dominio.Entidades.dll
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Dominio.Entidades\bin\Debug\Dominio.Entidades.pdb
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.csprojAssemblyReference.cache
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.csproj.CoreCompileInputs.cache
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.dll
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Dominio.Entidades\obj\Debug\Dominio.Entidades.pdb

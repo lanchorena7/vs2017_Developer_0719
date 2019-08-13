@@ -8,3 +8,13 @@ C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Presentacion.Cons
 C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.csproj.CopyComplete
 C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.exe
 C:\Users\VS2017-DEV\source\repos\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.pdb
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\bin\Debug\Presentacion.Consola.exe.config
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\bin\Debug\Presentacion.Consola.exe
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\bin\Debug\Presentacion.Consola.pdb
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\bin\Debug\Dominio.Entidades.dll
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\bin\Debug\Dominio.Entidades.pdb
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.csprojAssemblyReference.cache
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.csproj.CoreCompileInputs.cache
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.csproj.CopyComplete
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.exe
+D:\vs2017-Developer\github\ProgramacionOrientadaAObjetos\Presentacion.Consola\obj\Debug\Presentacion.Consola.pdb
