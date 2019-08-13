@@ -1,0 +1,14 @@
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\Shop.Infrastructure.EFDataContext.dll.config
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\Shop.Infrastructure.EFDataContext.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\Shop.Infrastructure.EFDataContext.pdb
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\EntityFramework.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\Shop.Domain.Entities.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\Shop.Domain.Entities.pdb
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\EntityFramework.xml
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\obj\Debug\Shop.Infrastructure.EFDataContext.csprojAssemblyReference.cache
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\obj\Debug\Shop.Infrastructure.EFDataContext.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\obj\Debug\Shop.Infrastructure.EFDataContext.csproj.CopyComplete
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\obj\Debug\Shop.Infrastructure.EFDataContext.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Infrastructure.EFDataContext\obj\Debug\Shop.Infrastructure.EFDataContext.pdb
