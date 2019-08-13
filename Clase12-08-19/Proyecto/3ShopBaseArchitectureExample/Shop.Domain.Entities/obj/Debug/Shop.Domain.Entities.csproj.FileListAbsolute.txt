@@ -1,0 +1,6 @@
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Domain.Entities\bin\Debug\Shop.Domain.Entities.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Domain.Entities\bin\Debug\Shop.Domain.Entities.pdb
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Domain.Entities\obj\Debug\Shop.Domain.Entities.csprojAssemblyReference.cache
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Domain.Entities\obj\Debug\Shop.Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Domain.Entities\obj\Debug\Shop.Domain.Entities.dll
+C:\Users\VS2017-DEV\source\repos\ShopBaseArchitectureExample\Shop.Domain.Entities\obj\Debug\Shop.Domain.Entities.pdb
