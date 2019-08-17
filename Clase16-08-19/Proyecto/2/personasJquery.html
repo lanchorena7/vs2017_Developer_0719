@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body class="container">
+        <h1><span class="badge badge-secondary">Registro de personas</span></h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input id="nombre" class="form-control" type="text">
+                </div>
+                <div class="form-group">
+                    <label>Fecha De nacimiento</label>
+                    <input id="fechaDeNacimiento" class="form-control" type="date">
+                </div>
+                <button id="botonDeGuardado" class="btn btn-primary">Guardar</button>
+            </div>
+            <div class="col-8">
+                <table id="tablaDePersonas" class="table table-sm table-striped table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Id</th>
+                            <th>Nombre</th>
+                            <th>Fecha De Nacimiento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            var contador = 1;
+
+            function sacarDatos(){
+                 var persona = {
+                    Id: contador++,
+                    Nombre: $('#nombre').val(),
+                    Fecha: $('#fechaDeNacimiento').val()
+                }
+                $('#nombre').val('');
+                $('#fechaDeNacimiento').val('');
+                return persona;
+            }   
+            
+            function agregarPersonaATabla(persona){
+                $('#tablaDePersonas').append
+                (
+                    `
+                    <tr>
+                        <td>${persona.Id}</td>
+                        <td>${persona.Nombre}</td>
+                        <td>${persona.Fecha}</td>
+                    <tr>    
+                    `
+                );
+            }
+
+            $('#botonDeGuardado').click(function(){
+                var persona = sacarDatos();
+                agregarPersonaATabla(persona);
+            });
+
+            function traerDatosDelServidor(){
+                $.get('http://jsonplaceholder.typicode.com/posts')
+                 .then(listaDePost=>{
+                    listaDePost.forEach(post=>{
+                        console.log(post.id);
+                        console.log(post.title);
+                    });
+                 });
+            }
+
+        </script>
+    </body>
+</hmtl>
