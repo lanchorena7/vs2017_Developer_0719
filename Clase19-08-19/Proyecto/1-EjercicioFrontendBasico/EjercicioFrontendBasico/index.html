@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="vue.js"></script>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" href="bootstrap.css"/>
+    </head>
+    <body class="container">
+        <div class="row col-12" id="app" >
+            <div class="card col-3" style="width: 18rem;" v-for="foto in listaDeFotos">
+              <img v-bind:src="foto.url" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">{{foto.id}}</h5>
+                <p class="card-text">{{foto.title}}</p>
+                <a v-on:click="borrarFoto(foto)" class="btn btn-primary">Borrar</a>
+              </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        var app = new Vue({
+            el: '#app',
+            data: {
+                listaDeFotos: []
+            },
+            methods:{
+                cargarDesdeElServidor:function(){
+                    $.get('https://jsonplaceholder.typicode.com/photos')
+                     .then(listaDeFotosDelServidor=>{
+                        this.listaDeFotos.push(...listaDeFotosDelServidor);
+                     });
+                },
+                borrarFoto:function(foto){
+                    this.listaDeFotos = this.listaDeFotos
+                                            .filter(x=>x.id!=foto.id);
+                }
+            }
+        })
+        app.cargarDesdeElServidor();
+    </script>
+</html>
