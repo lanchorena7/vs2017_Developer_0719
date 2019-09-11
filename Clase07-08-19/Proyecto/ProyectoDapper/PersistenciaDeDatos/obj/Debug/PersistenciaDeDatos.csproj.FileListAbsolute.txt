@@ -6,3 +6,12 @@ C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatos\obj\Debug\Pe
 C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.csproj.CopyComplete
 C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.dll
 C:\Users\VS2017-DEV\source\repos\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.pdb
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\bin\Debug\PersistenciaDeDatos.dll
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\bin\Debug\PersistenciaDeDatos.pdb
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\bin\Debug\Dapper.dll
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\bin\Debug\Dapper.xml
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.csproj.CoreCompileInputs.cache
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.csproj.CopyComplete
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.dll
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.pdb
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\PersistenciaDeDatos\obj\Debug\PersistenciaDeDatos.csprojAssemblyReference.cache

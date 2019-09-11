@@ -10,7 +10,7 @@ namespace PersistenciaDeDatos.Compartido
 {
     class FabricaDeConexiones
     {
-        private string cadenaDeConexionChinook = "SERVER=S300-ST;DataBase=Chinook; USER ID=sa; PASSWORD=sql";
+        private string cadenaDeConexionChinook = "SERVER=S300-ST;DataBase=Chinook; USER ID=lanchorena; PASSWORD=piscobamba19";
 
         public IDbConnection ConstruirConexionAChinook()
         {

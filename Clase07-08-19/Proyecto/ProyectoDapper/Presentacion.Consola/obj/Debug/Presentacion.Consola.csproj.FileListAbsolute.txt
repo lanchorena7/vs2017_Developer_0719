@@ -10,3 +10,15 @@ C:\Users\VS2017-DEV\source\repos\ProyectoDapper\Presentacion.Consola\obj\Debug\P
 C:\Users\VS2017-DEV\source\repos\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.csproj.CopyComplete
 C:\Users\VS2017-DEV\source\repos\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.exe
 C:\Users\VS2017-DEV\source\repos\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.pdb
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\Presentacion.Consola.exe.config
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\Presentacion.Consola.exe
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\Presentacion.Consola.pdb
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\PersistenciaDeDatos.dll
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\Dapper.dll
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\PersistenciaDeDatos.pdb
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\bin\Debug\Dapper.xml
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.csprojAssemblyReference.cache
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.csproj.CoreCompileInputs.cache
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.csproj.CopyComplete
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.exe
+D:\vs2017-Developer\github\Clase07-08-19\Proyecto\ProyectoDapper\Presentacion.Consola\obj\Debug\Presentacion.Consola.pdb
