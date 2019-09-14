@@ -1,0 +1,3 @@
+Enable-migrations
+Add-Migration "Nombre"
+Update-database
